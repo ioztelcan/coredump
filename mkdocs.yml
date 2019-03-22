@@ -23,4 +23,4 @@ site_author: "ioztelcan"
 pages:
   - Home: index.md
 
-  - 'Cheatsheets': 'notes/cheatsheets/*'  
+    #  - 'Cheatsheets': 'notes/cheatsheets/*'  
