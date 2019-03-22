@@ -20,8 +20,8 @@ theme: readthedocs
 #  - toc:
 #      permalink: True
 
-pages:
-  - Home: index.md
+nav:
+    - Home: index.md
+    - General: /general/*
+    - Cheatsheets: /cheatsheets/*
 
-  - 'Cheatsheets':
-          'gdb': './cheatsheets/gdb.md'
