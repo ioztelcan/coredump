@@ -11,7 +11,7 @@ repo_name: Github
 
 site_author: "ioztelcan"
 
-#theme: readthedocs
+theme: readthedocs
 #theme_dir: readthedocs_custom
 
 #markdown_extensions:
@@ -23,4 +23,4 @@ site_author: "ioztelcan"
 pages:
   - Home: index.md
 
-    #  - 'Cheatsheets': 'notes/cheatsheets/*'  
+  - 'Cheatsheets': './cheatsheets/'  
