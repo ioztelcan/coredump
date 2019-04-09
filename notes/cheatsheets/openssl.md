@@ -1,10 +1,10 @@
-# To encrypt a file:
+## To encrypt a file:
 
-openssl enc -e -aes256 -in [input_filename] -out [output_filename]
+`openssl enc -e -aes256 -in [input_filename] -out [output_filename]`
 
-# To decrypt a file:
+## To decrypt a file:
 
-openssl enc -d -aes256 -in [encrypted_filename] -out [decrypted_filename]
+`openssl enc -d -aes256 -in [encrypted_filename] -out [decrypted_filename]`
 
 ------------------------------------
 

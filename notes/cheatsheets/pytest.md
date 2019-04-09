@@ -1,12 +1,12 @@
-# Useful options
+## Useful options
 
-## To ignore entire modules or directories
+### To ignore entire modules or directories
 --ignore=/path/to/tests OR /path/to/tests/test.py
 
-## More detailed traces
+### More detailed traces
 --verbose
 
-# pytest.ini
+## pytest.ini
 
 *Example 1:* have pytest look for "check" instead of "test"
 can also be defined in tox.ini or setup.cfg file, although the section
@@ -19,7 +19,7 @@ python_classes = Check
 python_functions = *_check
 ```
 
-# Fixtures
+## Fixtures
 
 ```
 @pytest.fixture(scope="module")
@@ -29,7 +29,7 @@ def fixture_func:
 Afterwards each test function can include fixture_func as parameter to run it and use the objects created
 in there.
 
-# Setup/Teardown
+## Setup/Teardown
 Parameter unnecessary if  version > pytest 3.0, except for classes
 
 ```
