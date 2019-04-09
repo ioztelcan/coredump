@@ -14,7 +14,8 @@ site_author: "ioztelcan"
 theme: readthedocs
 #theme_dir: readthedocs_custom
 
-#markdown_extensions:
+markdown_extensions:
+   - admonition
 #  - smarty
 #  - footnotes
 #  - toc:

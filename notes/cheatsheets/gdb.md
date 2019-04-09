@@ -3,7 +3,8 @@
 `x /100bs buf` -> Prints 100 bytes as string
 
 ### Running a python file with gdb:
-!!! Warning: This might only work with instantiations of c code within python.
+!!! important "Warning" 
+    This might only work with instantiations of c code within python.
 
  - Run `gdb python3`
  - Inside gdb `run ./python_file.py`
