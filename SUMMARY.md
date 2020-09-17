@@ -1,0 +1,23 @@
+# Table of contents
+
+* [Initial page](README.md)
+* [notes](notes/README.md)
+  * [general](notes/general/README.md)
+    * [editors](notes/general/editors/README.md)
+      * [vscode\_info](notes/general/editors/vscode_info.md)
+  * [cheatsheets](notes/cheatsheets/README.md)
+    * [sftp](notes/cheatsheets/sftp.md)
+    * [mount](notes/cheatsheets/mount.md)
+    * [bat](notes/cheatsheets/bat.md)
+    * [git](notes/cheatsheets/git.md)
+    * [Ascii table left hex, right dec](notes/cheatsheets/ascii.md)
+    * [tree](notes/cheatsheets/tree.md)
+    * [pytest](notes/cheatsheets/pytest.md)
+    * [Openocd configuration before building.](notes/cheatsheets/openocd.md)
+    * [gdb](notes/cheatsheets/gdb.md)
+    * [openssl](notes/cheatsheets/openssl.md)
+    * [golang](notes/cheatsheets/golang.md)
+    * [grep](notes/cheatsheets/grep.md)
+    * [Abbreviations and Keywords](notes/cheatsheets/abbv.md)
+  * [Coredump](notes/index.md)
+

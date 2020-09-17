@@ -1,29 +1,25 @@
-### To print the buffer in an array:
-`x /100bx buf` -> Prints 100 bytes as hexadecimal.
-`x /100bs buf` -> Prints 100 bytes as string
+# gdb
 
-### Running a python file with gdb:
-!!! important "Warning" 
-    This might only work with instantiations of c code within python.
+## To print the buffer in an array:
 
- - Run `gdb python3`
- - Inside gdb `run ./python_file.py`
+`x /100bx buf` -&gt; Prints 100 bytes as hexadecimal. `x /100bs buf` -&gt; Prints 100 bytes as string
 
+## Running a python file with gdb:
 
-After this the symbols are added (I think) and you can put breakpoints, and run the same command.
+!!! important "Warning" This might only work with instantiations of c code within python.
 
--------------------------------------------------------
-### Shortcuts:
+* Run `gdb python3`
+* Inside gdb `run ./python_file.py`
 
-backtrace:	bt
-breakpoint: 	b <function_name or line_no> 
-next:		n
-step:  		s 
-run:   		r 
-continue: 	c
-list: 		l
+After this the symbols are added \(I think\) and you can put breakpoints, and run the same command.
 
-`Ctrl + X` and `Ctrl + A` right after, turns on/off tui. (text user interface)
+## Shortcuts:
 
-### evaluate an expression and print the result
-p length=strlen(string)
+backtrace: bt breakpoint: b  next: n step: s run: r continue: c list: l
+
+`Ctrl + X` and `Ctrl + A` right after, turns on/off tui. \(text user interface\)
+
+## evaluate an expression and print the result
+
+p length=strlen\(string\)
+
